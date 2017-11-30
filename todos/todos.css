@@ -1,0 +1,49 @@
+[name=todoItem] {
+
+    border: none;
+    font-family: "Times New Roman";
+    font-size: 100%;
+    padding: 0.15em;
+    width: 50%;
+}
+[name=todoItem]:hover {
+
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+[name=todItem]:focus {
+
+    background-color:  #f9f9f9;
+    cursor: default;
+    outline: none;
+}
+
+/* Hover over new todo field */
+[name=todoName]:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+/* focus on new todo field */
+[name=todoName]:focus {
+    background-color:  #f9f9f9;
+    cursor: default;
+    outline: none;
+}
+
+.checked {
+    background-color: #f0f0f0;
+    color: #666;
+}
+
+.checked [name=todoItem] {
+    text-decoration: line-through;
+}
+
+
+.checked [name=todoItem]:hover,
+.checked [name=todoItem]:focus,
+.checked [name=todoItem] {
+    background-color: #f0f0f0;
+}
+
