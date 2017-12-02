@@ -1,3 +1,10 @@
+
+/* Background color for error message on input triggred by validate package */
+input.error{
+    border-color: #e74c3c;
+    background-color: #FFE7E7;
+}
+
 [name=todoItem] {
 
     border: none;
